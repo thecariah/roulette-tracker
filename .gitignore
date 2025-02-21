@@ -1,0 +1,66 @@
+# ==========================
+# Python
+# ==========================
+
+# Entorno virtual
+venv/
+.env
+.env.local
+.env.*.local
+
+# Archivos de compilación
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# Base de datos (SQLite)
+*.sqlite3
+*.db
+*.sqlite
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================
+# Dart / Flutter
+# ==========================
+
+# Archivos de compilación y caché
+build/
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.melos/
+.pmd_cache/
+
+# Archivos de configuración locales
+pubspec.lock
+pubspec_overrides.yaml
+
+# Configuraciones de IDEs
+android/.gradle/
+android/.idea/
+ios/.generated/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+*.iml
+
+# Archivos de logs y errores
+*.log
+*.DS_Store
+*.swp
+*.swo
