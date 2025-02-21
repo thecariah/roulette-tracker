@@ -2,30 +2,30 @@
 # Python
 # ==========================
 
-# Entorno virtual
+# Virtual environment
 venv/
 .env
 .env.local
 .env.*.local
 
-# Archivos de compilación
+# Compiled files
 *.pyc
 *.pyo
 *.pyd
 __pycache__/
 *.log
 
-# Base de datos (SQLite)
+# Database (SQLite)
 *.sqlite3
 *.db
 *.sqlite
 
-# Archivos de configuración de IDEs
+# IDE configuration files
 .vscode/
 .idea/
 *.iml
 
-# Dependencias
+# Dependencies
 pip-log.txt
 pip-delete-this-directory.txt
 
@@ -33,7 +33,7 @@ pip-delete-this-directory.txt
 # Dart / Flutter
 # ==========================
 
-# Archivos de compilación y caché
+# Build and cache files
 build/
 .dart_tool/
 .packages
@@ -44,11 +44,11 @@ build/
 .melos/
 .pmd_cache/
 
-# Archivos de configuración locales
+# Local configuration files
 pubspec.lock
 pubspec_overrides.yaml
 
-# Configuraciones de IDEs
+# IDE configurations
 android/.gradle/
 android/.idea/
 ios/.generated/
@@ -59,8 +59,42 @@ ios/Flutter/Generated.xcconfig
 ios/Flutter/flutter_export_environment.sh
 *.iml
 
-# Archivos de logs y errores
+# Log and error files
 *.log
 *.DS_Store
 *.swp
 *.swo
+
+# ==========================
+# Miscellaneous
+# ==========================
+
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
